@@ -1,0 +1,31 @@
+2025-04-24 20:42:49,275 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 20:42:49,275 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 20:42:49,298 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-24 20:42:51,587 - WARNING -  * Debugger is active!
+2025-04-24 20:42:51,590 - INFO -  * Debugger PIN: 346-962-155
+2025-04-24 20:44:38,376 - INFO - 127.0.0.1 - - [24/Apr/2025 20:44:38] "GET / HTTP/1.1" 200 -
+2025-04-24 20:44:38,782 - INFO - 127.0.0.1 - - [24/Apr/2025 20:44:38] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-24 20:44:38,782 - INFO - 127.0.0.1 - - [24/Apr/2025 20:44:38] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-24 20:44:38,854 - INFO - 127.0.0.1 - - [24/Apr/2025 20:44:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-24 20:44:52,521 - INFO - 127.0.0.1 - - [24/Apr/2025 20:44:52] "POST /generate_data HTTP/1.1" 200 -
+2025-04-24 20:44:54,635 - INFO - 127.0.0.1 - - [24/Apr/2025 20:44:54] "GET /download_sample/network_traffic_20250424_204452.csv HTTP/1.1" 200 -
+2025-04-24 20:45:00,895 - INFO - Successfully loaded data from uploads\network_traffic_20250424_204452.csv
+2025-04-24 20:45:01,167 - INFO - Anomaly detection statistics: {
+  "total_records": 1440,
+  "anomaly_counts": {
+    "Normal": 1224,
+    "Anomaly": 216
+  },
+  "anomaly_score_stats": {
+    "mean": -0.4158686344774678,
+    "min": -0.7381462341603158,
+    "max": -0.3421329246221993
+  }
+}
+2025-04-24 20:45:02,931 - INFO - Generated 2 mitigation recommendations
+2025-04-24 20:45:02,937 - INFO - Recommendation: TRAFFIC_SPIKE - Unusual spike in network traffic
+2025-04-24 20:45:02,937 - INFO - Recommendation: PATTERN_ANOMALY - Unusual traffic patterns
+2025-04-24 20:45:02,938 - INFO - 127.0.0.1 - - [24/Apr/2025 20:45:02] "POST /analyze HTTP/1.1" 200 -
+2025-04-24 20:45:02,945 - INFO - 127.0.0.1 - - [24/Apr/2025 20:45:02] "GET /visualization/20250424_204501/scatter HTTP/1.1" 200 -
+2025-04-24 20:45:02,945 - INFO - 127.0.0.1 - - [24/Apr/2025 20:45:02] "GET /visualization/20250424_204501/distribution HTTP/1.1" 200 -

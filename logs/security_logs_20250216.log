@@ -1,0 +1,125 @@
+2025-02-16 13:46:18,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-16 13:46:18,359 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 13:46:18,390 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-16 13:46:22,079 - WARNING -  * Debugger is active!
+2025-02-16 13:46:22,086 - INFO -  * Debugger PIN: 471-003-971
+2025-02-16 13:47:31,525 - INFO - 127.0.0.1 - - [16/Feb/2025 13:47:31] "GET / HTTP/1.1" 200 -
+2025-02-16 13:47:32,127 - INFO - 127.0.0.1 - - [16/Feb/2025 13:47:32] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-16 13:47:32,254 - INFO - 127.0.0.1 - - [16/Feb/2025 13:47:32] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-16 13:47:32,286 - INFO - 127.0.0.1 - - [16/Feb/2025 13:47:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-16 13:48:09,697 - INFO - 127.0.0.1 - - [16/Feb/2025 13:48:09] "POST /generate_data HTTP/1.1" 200 -
+2025-02-16 13:48:11,062 - INFO - 127.0.0.1 - - [16/Feb/2025 13:48:11] "GET /download_sample/network_traffic_20250216_134809.csv HTTP/1.1" 200 -
+2025-02-16 13:48:34,883 - INFO - Successfully loaded data from uploads\network_traffic_20250216_134809.csv
+2025-02-16 13:48:35,380 - INFO - Anomaly detection statistics: {
+  "total_records": 1440,
+  "anomaly_counts": {
+    "Normal": 1224,
+    "Anomaly": 216
+  },
+  "anomaly_score_stats": {
+    "mean": -0.4058863679037242,
+    "min": -0.7387500378991602,
+    "max": -0.33685210133134413
+  }
+}
+2025-02-16 13:48:35,582 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\__init__.py', reloading
+2025-02-16 13:48:35,693 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\constants.py', reloading
+2025-02-16 13:48:35,741 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\filedialog.py', reloading
+2025-02-16 13:48:35,772 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\dialog.py', reloading
+2025-02-16 13:48:35,804 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\commondialog.py', reloading
+2025-02-16 13:48:35,836 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\simpledialog.py', reloading
+2025-02-16 13:48:35,868 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\messagebox.py', reloading
+2025-02-16 13:48:35,900 - INFO -  * Detected change in 'C:\\Users\\abhim\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\tkinter\\font.py', reloading
+2025-02-16 13:48:40,056 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-16 13:48:44,561 - WARNING -  * Debugger is active!
+2025-02-16 13:48:44,561 - INFO -  * Debugger PIN: 471-003-971
+2025-02-16 13:48:45,853 - INFO - Successfully loaded data from uploads\network_traffic_20250216_134809.csv
+2025-02-16 13:48:46,291 - INFO - Anomaly detection statistics: {
+  "total_records": 1440,
+  "anomaly_counts": {
+    "Normal": 1224,
+    "Anomaly": 216
+  },
+  "anomaly_score_stats": {
+    "mean": -0.4058863679037242,
+    "min": -0.7387500378991602,
+    "max": -0.33685210133134413
+  }
+}
+2025-02-16 13:48:48,038 - INFO - Generated 2 mitigation recommendations
+2025-02-16 13:48:48,038 - INFO - Recommendation: TRAFFIC_SPIKE - Unusual spike in network traffic
+2025-02-16 13:48:48,038 - INFO - Recommendation: PATTERN_ANOMALY - Unusual traffic patterns
+2025-02-16 13:48:48,038 - INFO - 127.0.0.1 - - [16/Feb/2025 13:48:48] "POST /analyze HTTP/1.1" 200 -
+2025-02-16 13:48:48,054 - INFO - 127.0.0.1 - - [16/Feb/2025 13:48:48] "GET /visualization/20250216_134846/scatter HTTP/1.1" 200 -
+2025-02-16 13:48:48,357 - INFO - 127.0.0.1 - - [16/Feb/2025 13:48:48] "GET /visualization/20250216_134846/distribution HTTP/1.1" 200 -
+2025-02-16 13:48:59,182 - INFO - 127.0.0.1 - - [16/Feb/2025 13:48:59] "GET /download/20250216_134846 HTTP/1.1" 200 -
+2025-02-16 13:51:35,179 - INFO - 127.0.0.1 - - [16/Feb/2025 13:51:35] "POST /generate_data HTTP/1.1" 200 -
+2025-02-16 13:51:38,031 - INFO - 127.0.0.1 - - [16/Feb/2025 13:51:38] "POST /generate_data HTTP/1.1" 200 -
+2025-02-16 13:51:42,501 - INFO - 127.0.0.1 - - [16/Feb/2025 13:51:42] "GET / HTTP/1.1" 200 -
+2025-02-16 13:51:42,549 - INFO - 127.0.0.1 - - [16/Feb/2025 13:51:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 13:51:42,756 - INFO - 127.0.0.1 - - [16/Feb/2025 13:51:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-16 13:52:00,843 - INFO - 127.0.0.1 - - [16/Feb/2025 13:52:00] "POST /generate_data HTTP/1.1" 200 -
+2025-02-16 13:52:02,479 - INFO - 127.0.0.1 - - [16/Feb/2025 13:52:02] "GET /download_sample/network_traffic_20250216_135200.csv HTTP/1.1" 200 -
+2025-02-16 13:52:09,875 - INFO - Successfully loaded data from uploads\network_traffic_20250216_135200.csv
+2025-02-16 13:52:10,219 - INFO - Anomaly detection statistics: {
+  "total_records": 1440,
+  "anomaly_counts": {
+    "Normal": 1224,
+    "Anomaly": 216
+  },
+  "anomaly_score_stats": {
+    "mean": -0.41547823043912807,
+    "min": -0.7290552505155703,
+    "max": -0.3433675719292107
+  }
+}
+2025-02-16 13:52:11,335 - INFO - Generated 2 mitigation recommendations
+2025-02-16 13:52:11,335 - INFO - Recommendation: TRAFFIC_SPIKE - Unusual spike in network traffic
+2025-02-16 13:52:11,335 - INFO - Recommendation: PATTERN_ANOMALY - Unusual traffic patterns
+2025-02-16 13:52:11,335 - INFO - 127.0.0.1 - - [16/Feb/2025 13:52:11] "POST /analyze HTTP/1.1" 200 -
+2025-02-16 13:52:11,670 - INFO - 127.0.0.1 - - [16/Feb/2025 13:52:11] "GET /visualization/20250216_135210/scatter HTTP/1.1" 200 -
+2025-02-16 13:52:11,670 - INFO - 127.0.0.1 - - [16/Feb/2025 13:52:11] "GET /visualization/20250216_135210/distribution HTTP/1.1" 200 -
+2025-02-16 13:52:40,640 - INFO - 127.0.0.1 - - [16/Feb/2025 13:52:40] "GET /download_sample/network_traffic_20250216_135200.csv HTTP/1.1" 200 -
+2025-02-16 13:52:51,354 - INFO - 127.0.0.1 - - [16/Feb/2025 13:52:51] "[36mGET /download_sample/network_traffic_20250216_135200.csv HTTP/1.1[0m" 304 -
+2025-02-16 13:53:06,032 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:06] "POST /generate_data HTTP/1.1" 200 -
+2025-02-16 13:53:07,381 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:07] "GET /download_sample/network_traffic_20250216_135305.csv HTTP/1.1" 200 -
+2025-02-16 13:53:13,388 - INFO - Successfully loaded data from uploads\network_traffic_20250216_135200.csv
+2025-02-16 13:53:13,893 - INFO - Anomaly detection statistics: {
+  "total_records": 1440,
+  "anomaly_counts": {
+    "Normal": 1224,
+    "Anomaly": 216
+  },
+  "anomaly_score_stats": {
+    "mean": -0.41547823043912807,
+    "min": -0.7290552505155703,
+    "max": -0.3433675719292107
+  }
+}
+2025-02-16 13:53:15,116 - INFO - Generated 2 mitigation recommendations
+2025-02-16 13:53:15,116 - INFO - Recommendation: TRAFFIC_SPIKE - Unusual spike in network traffic
+2025-02-16 13:53:15,116 - INFO - Recommendation: PATTERN_ANOMALY - Unusual traffic patterns
+2025-02-16 13:53:15,132 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:15] "POST /analyze HTTP/1.1" 200 -
+2025-02-16 13:53:15,132 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:15] "GET /visualization/20250216_135313/scatter HTTP/1.1" 200 -
+2025-02-16 13:53:15,450 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:15] "GET /visualization/20250216_135313/distribution HTTP/1.1" 200 -
+2025-02-16 13:53:19,554 - INFO - Successfully loaded data from uploads\network_traffic_20250216_135305.csv
+2025-02-16 13:53:19,961 - INFO - Anomaly detection statistics: {
+  "total_records": 720,
+  "anomaly_counts": {
+    "Normal": 612,
+    "Anomaly": 108
+  },
+  "anomaly_score_stats": {
+    "mean": -0.42123890686584076,
+    "min": -0.7330413852322659,
+    "max": -0.345218554320199
+  }
+}
+2025-02-16 13:53:21,069 - INFO - Generated 3 mitigation recommendations
+2025-02-16 13:53:21,069 - INFO - Recommendation: TRAFFIC_SPIKE - Unusual spike in network traffic
+2025-02-16 13:53:21,069 - INFO - Recommendation: PATTERN_ANOMALY - Unusual traffic patterns
+2025-02-16 13:53:21,069 - INFO - Recommendation: DATA_EXFILTRATION - Potential data exfiltration
+2025-02-16 13:53:21,069 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:21] "POST /analyze HTTP/1.1" 200 -
+2025-02-16 13:53:21,069 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:21] "GET /visualization/20250216_135319/scatter HTTP/1.1" 200 -
+2025-02-16 13:53:21,389 - INFO - 127.0.0.1 - - [16/Feb/2025 13:53:21] "GET /visualization/20250216_135319/distribution HTTP/1.1" 200 -

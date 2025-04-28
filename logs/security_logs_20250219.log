@@ -1,0 +1,31 @@
+2025-02-19 13:00:29,653 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 13:00:29,654 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 13:00:29,684 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-19 13:00:35,189 - WARNING -  * Debugger is active!
+2025-02-19 13:00:35,194 - INFO -  * Debugger PIN: 105-808-434
+2025-02-19 13:00:50,869 - INFO - 127.0.0.1 - - [19/Feb/2025 13:00:50] "GET / HTTP/1.1" 200 -
+2025-02-19 13:00:51,082 - INFO - 127.0.0.1 - - [19/Feb/2025 13:00:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-19 13:00:51,097 - INFO - 127.0.0.1 - - [19/Feb/2025 13:00:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-19 13:00:51,197 - INFO - 127.0.0.1 - - [19/Feb/2025 13:00:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-19 13:03:23,604 - INFO - 127.0.0.1 - - [19/Feb/2025 13:03:23] "POST /generate_data HTTP/1.1" 200 -
+2025-02-19 13:03:25,741 - INFO - 127.0.0.1 - - [19/Feb/2025 13:03:25] "GET /download_sample/network_traffic_20250219_130323.csv HTTP/1.1" 200 -
+2025-02-19 13:04:15,514 - INFO - Successfully loaded data from uploads\network_traffic_20250219_130323.csv
+2025-02-19 13:04:16,119 - INFO - Anomaly detection statistics: {
+  "total_records": 1440,
+  "anomaly_counts": {
+    "Normal": 1224,
+    "Anomaly": 216
+  },
+  "anomaly_score_stats": {
+    "mean": -0.4160558363652143,
+    "min": -0.7326360286528546,
+    "max": -0.3398077737149689
+  }
+}
+2025-02-19 13:04:20,402 - INFO - Generated 2 mitigation recommendations
+2025-02-19 13:04:20,402 - INFO - Recommendation: TRAFFIC_SPIKE - Unusual spike in network traffic
+2025-02-19 13:04:20,402 - INFO - Recommendation: PATTERN_ANOMALY - Unusual traffic patterns
+2025-02-19 13:04:20,403 - INFO - 127.0.0.1 - - [19/Feb/2025 13:04:20] "POST /analyze HTTP/1.1" 200 -
+2025-02-19 13:04:20,416 - INFO - 127.0.0.1 - - [19/Feb/2025 13:04:20] "GET /visualization/20250219_130416/scatter HTTP/1.1" 200 -
+2025-02-19 13:04:20,417 - INFO - 127.0.0.1 - - [19/Feb/2025 13:04:20] "GET /visualization/20250219_130416/distribution HTTP/1.1" 200 -
